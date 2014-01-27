@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A2093" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="3W0-5l-dCv">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ChZ-ZL-eEZ">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="KrK-HG-qxs" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ir5-qe-Uc2"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="12c-tQ-xMq">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oEK-U1-OCU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2252" y="85"/>
+        </scene>
+        <!--View Controller - Main-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="View1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TFl-Jn-exG"/>
+                        <viewControllerLayoutGuide type="bottom" id="l7D-u6-vFg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Djd-ue-6A0">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="eNl-Tq-Yfa"/>
+                                </connections>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nrg-rw-bKW">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
+                                <items>
+                                    <navigationItem title="Main" id="D3w-VY-EPr">
+                                        <barButtonItem key="rightBarButtonItem" title=">" id="zK6-yC-ihF">
+                                            <connections>
+                                                <action selector="pushDes:" destination="vXZ-lx-hvc" id="BTQ-pS-gg9"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Main" image="BarIcon.png" id="028-LB-gTs"/>
+                    <navigationItem key="navigationItem" id="8tb-Jb-5Ma"/>
+                    <connections>
+                        <outlet property="navBar" destination="nrg-rw-bKW" id="jaa-7d-RFS"/>
+                        <outlet property="pushDesButton" destination="zK6-yC-ihF" id="hUx-kX-WgC"/>
+                        <outlet property="webView" destination="Djd-ue-6A0" id="Ago-YB-gCO"/>
+                        <segue destination="N7t-ph-ScS" kind="push" identifier="v1v2" id="qqx-dO-MZF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1721" y="810"/>
+        </scene>
+        <!--View Controller2 - Designs-->
+        <scene sceneID="0TP-Pr-LEb">
+            <objects>
+                <viewController storyboardIdentifier="View2" id="N7t-ph-ScS" customClass="ViewController2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vKf-ga-jVQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Vu-3F-zH9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zCB-Cx-2q3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xPe-zg-wSk">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="N7t-ph-ScS" id="zlc-jW-Po4"/>
+                                </connections>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wma-XU-cv4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
+                                <items>
+                                    <navigationItem title="Designs" id="zg4-Xj-5RV">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="jzZ-47-eKM">
+                                            <connections>
+                                                <action selector="backDes:" destination="N7t-ph-ScS" id="uIQ-be-qbJ"/>
+                                                <segue destination="vXZ-lx-hvc" kind="push" identifier="v2v1" id="PTY-GQ-nkn"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title=">" id="NB0-fR-1P6">
+                                            <connections>
+                                                <action selector="pushDes:" destination="N7t-ph-ScS" id="uqP-jk-dDM"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Designs" image="BarIcon.png" id="hdc-be-rne"/>
+                    <navigationItem key="navigationItem" id="ih4-Jv-mCg"/>
+                    <connections>
+                        <outlet property="backDesButton" destination="jzZ-47-eKM" id="tDT-ae-BPx"/>
+                        <outlet property="pushDesButton" destination="NB0-fR-1P6" id="K9r-oB-ByF"/>
+                        <outlet property="webView2" destination="xPe-zg-wSk" id="kNi-Sy-gbQ"/>
+                        <outletCollection property="BarButton2" destination="hdc-be-rne" id="jyk-3f-4Bu"/>
+                        <segue destination="TXB-Ym-MUf" kind="push" identifier="v2v3" id="dfA-Ne-km6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dDK-oT-CbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2252" y="812"/>
+        </scene>
+        <!--View Controller3 - Photos-->
+        <scene sceneID="T6g-sc-d69">
+            <objects>
+                <viewController storyboardIdentifier="View3" id="TXB-Ym-MUf" customClass="ViewController3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rWQ-xQ-nNi"/>
+                        <viewControllerLayoutGuide type="bottom" id="zjW-hY-oz7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dZz-nc-wCe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sFY-Gh-er6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xLi-FS-Qrc">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.49999999999999994" width="1" height="1"/>
+                                <items>
+                                    <navigationItem title="Photos" id="oYo-sH-tEg">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="LsC-XU-EL3">
+                                            <connections>
+                                                <action selector="backDes:" destination="TXB-Ym-MUf" id="ldF-KO-oWr"/>
+                                                <segue destination="N7t-ph-ScS" kind="push" identifier="v3v2" id="jKs-nn-04d"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Photos" image="BarIcon.png" id="bcu-N9-J1D"/>
+                    <navigationItem key="navigationItem" id="izB-5P-8Lp"/>
+                    <connections>
+                        <outlet property="backDesButton" destination="LsC-XU-EL3" id="uQM-4P-BRK"/>
+                        <outlet property="webView3" destination="sFY-Gh-er6" id="9tq-4X-VDl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RfC-gD-WBY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2709" y="819"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ujG-1O-bxx">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3W0-5l-dCv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="X2Y-Ek-ARS">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="uUF-4v-nHP"/>
+                        <segue destination="N7t-ph-ScS" kind="relationship" relationship="viewControllers" id="Nbf-rf-XTH"/>
+                        <segue destination="TXB-Ym-MUf" kind="relationship" relationship="viewControllers" id="kLy-nk-paB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FMk-QQ-jnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1271" y="810"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BarIcon.png" width="22" height="25"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="dfA-Ne-km6"/>
+        <segue reference="qqx-dO-MZF"/>
+        <segue reference="PTY-GQ-nkn"/>
+    </inferredMetricsTieBreakers>
+</document>
