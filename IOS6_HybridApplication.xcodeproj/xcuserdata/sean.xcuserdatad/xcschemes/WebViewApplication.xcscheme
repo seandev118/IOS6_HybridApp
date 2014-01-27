@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "14A2AABA18920C2C00C73E42"
-               BuildableName = "IOS7_HybridApplication.app"
-               BlueprintName = "IOS7_HybridApplication"
-               ReferencedContainer = "container:IOS7_HybridApplication.xcodeproj">
+               BuildableName = "IOS6_HybridApplication.app"
+               BlueprintName = "IOS6_HybridApplication"
+               ReferencedContainer = "container:IOS6_HybridApplication.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "14A2AADB18920C2C00C73E42"
-               BuildableName = "IOS7_HybridApplicationTests.xctest"
-               BlueprintName = "IOS7_HybridApplicationTests"
-               ReferencedContainer = "container:IOS7_HybridApplication.xcodeproj">
+               BuildableName = "IOS6_HybridApplicationTests.xctest"
+               BlueprintName = "IOS6_HybridApplicationTests"
+               ReferencedContainer = "container:IOS6_HybridApplication.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14A2AABA18920C2C00C73E42"
-            BuildableName = "IOS7_HybridApplication.app"
-            BlueprintName = "IOS7_HybridApplication"
-            ReferencedContainer = "container:IOS7_HybridApplication.xcodeproj">
+            BuildableName = "IOS6_HybridApplication.app"
+            BlueprintName = "IOS6_HybridApplication"
+            ReferencedContainer = "container:IOS6_HybridApplication.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14A2AABA18920C2C00C73E42"
-            BuildableName = "IOS7_HybridApplication.app"
-            BlueprintName = "IOS7_HybridApplication"
-            ReferencedContainer = "container:IOS7_HybridApplication.xcodeproj">
+            BuildableName = "IOS6_HybridApplication.app"
+            BlueprintName = "IOS6_HybridApplication"
+            ReferencedContainer = "container:IOS6_HybridApplication.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14A2AABA18920C2C00C73E42"
-            BuildableName = "IOS7_HybridApplication.app"
-            BlueprintName = "IOS7_HybridApplication"
-            ReferencedContainer = "container:IOS7_HybridApplication.xcodeproj">
+            BuildableName = "IOS6_HybridApplication.app"
+            BlueprintName = "IOS6_HybridApplication"
+            ReferencedContainer = "container:IOS6_HybridApplication.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

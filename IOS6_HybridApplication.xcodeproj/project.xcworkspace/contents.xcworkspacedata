@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IOS7_HybridApplication.xcodeproj">
+      location = "self:IOS6_HybridApplication.xcodeproj">
    </FileRef>
 </Workspace>

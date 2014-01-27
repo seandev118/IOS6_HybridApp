@@ -30,6 +30,7 @@
 		14A2AB0218922A7000C73E42 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A2AB0118922A7000C73E42 /* ViewController2.m */; };
 		14BBC88618971872006AC9EF /* style2.css in Resources */ = {isa = PBXBuildFile; fileRef = 14BBC88518971872006AC9EF /* style2.css */; };
 		14BBC888189718F5006AC9EF /* hybridapp.js in Sources */ = {isa = PBXBuildFile; fileRef = 14BBC887189718F5006AC9EF /* hybridapp.js */; };
+		14BBC88C18971F28006AC9EF /* IOS7_HybridApplication-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BBC88B18971F28006AC9EF /* IOS7_HybridApplication-Info.plist */; };
 		14CCAFBC189497A8003D6EFA /* cellphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14CCAFBB189497A8003D6EFA /* cellphone.jpg */; };
 		14CCAFC218949A0C003D6EFA /* emailicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CCAFC118949A0C003D6EFA /* emailicon.png */; };
 		14CCAFD51894ACE6003D6EFA /* BarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CCAFD31894ACE6003D6EFA /* BarIcon.png */; };
@@ -52,23 +53,22 @@
 		1465C5461894C84000B4BE17 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		1465C5481894D78200B4BE17 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		1465C54A1894D7A500B4BE17 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		14A2AABB18920C2C00C73E42 /* IOS7_HybridApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS7_HybridApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A2AABB18920C2C00C73E42 /* IOS6_HybridApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS6_HybridApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A2AABE18920C2C00C73E42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		14A2AAC018920C2C00C73E42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		14A2AAC218920C2C00C73E42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		14A2AAC618920C2C00C73E42 /* IOS7_HybridApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOS7_HybridApplication-Info.plist"; sourceTree = "<group>"; };
 		14A2AAC818920C2C00C73E42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14A2AACA18920C2C00C73E42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		14A2AACC18920C2C00C73E42 /* IOS7_HybridApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOS7_HybridApplication-Prefix.pch"; sourceTree = "<group>"; };
+		14A2AACC18920C2C00C73E42 /* IOS6_HybridApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOS6_HybridApplication-Prefix.pch"; sourceTree = "<group>"; };
 		14A2AACD18920C2C00C73E42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14A2AACE18920C2C00C73E42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		14A2AAD118920C2C00C73E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14A2AAD318920C2C00C73E42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		14A2AAD418920C2C00C73E42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14A2AAD618920C2C00C73E42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		14A2AADC18920C2C00C73E42 /* IOS7_HybridApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS7_HybridApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A2AADC18920C2C00C73E42 /* IOS6_HybridApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS6_HybridApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A2AADD18920C2C00C73E42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		14A2AAE518920C2C00C73E42 /* IOS7_HybridApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOS7_HybridApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		14A2AAE518920C2C00C73E42 /* IOS6_HybridApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOS6_HybridApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		14A2AAE718920C2C00C73E42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14A2AAE918920C2C00C73E42 /* WebViewApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewApplicationTests.m; sourceTree = "<group>"; };
 		14A2AAF3189218A400C73E42 /* mobileweb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mobileweb.html; sourceTree = "<group>"; };
@@ -78,6 +78,7 @@
 		14A2AB0118922A7000C73E42 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		14BBC88518971872006AC9EF /* style2.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style2.css; sourceTree = "<group>"; };
 		14BBC887189718F5006AC9EF /* hybridapp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hybridapp.js; sourceTree = "<group>"; };
+		14BBC88B18971F28006AC9EF /* IOS7_HybridApplication-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IOS7_HybridApplication-Info.plist"; sourceTree = "<group>"; };
 		14CCAFBB189497A8003D6EFA /* cellphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cellphone.jpg; sourceTree = "<group>"; };
 		14CCAFC118949A0C003D6EFA /* emailicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailicon.png; sourceTree = "<group>"; };
 		14CCAFD31894ACE6003D6EFA /* BarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarIcon.png; sourceTree = "<group>"; };
@@ -123,8 +124,8 @@
 		14A2AABC18920C2C00C73E42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14A2AABB18920C2C00C73E42 /* IOS7_HybridApplication.app */,
-				14A2AADC18920C2C00C73E42 /* IOS7_HybridApplicationTests.xctest */,
+				14A2AABB18920C2C00C73E42 /* IOS6_HybridApplication.app */,
+				14A2AADC18920C2C00C73E42 /* IOS6_HybridApplicationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +157,7 @@
 				14CCAFC118949A0C003D6EFA /* emailicon.png */,
 				14A2AAF7189223AB00C73E42 /* style.css */,
 				14BBC88518971872006AC9EF /* style2.css */,
+				14BBC88B18971F28006AC9EF /* IOS7_HybridApplication-Info.plist */,
 				14A2AAF91892277400C73E42 /* thememoryofher.jpg */,
 				14A2AAF3189218A400C73E42 /* mobileweb.html */,
 				14BBC887189718F5006AC9EF /* hybridapp.js */,
@@ -175,10 +177,9 @@
 		14A2AAC518920C2C00C73E42 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				14A2AAC618920C2C00C73E42 /* IOS7_HybridApplication-Info.plist */,
 				14A2AAC718920C2C00C73E42 /* InfoPlist.strings */,
 				14A2AACA18920C2C00C73E42 /* main.m */,
-				14A2AACC18920C2C00C73E42 /* IOS7_HybridApplication-Prefix.pch */,
+				14A2AACC18920C2C00C73E42 /* IOS6_HybridApplication-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,7 +196,7 @@
 		14A2AAE418920C2C00C73E42 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				14A2AAE518920C2C00C73E42 /* IOS7_HybridApplicationTests-Info.plist */,
+				14A2AAE518920C2C00C73E42 /* IOS6_HybridApplicationTests-Info.plist */,
 				14A2AAE618920C2C00C73E42 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -204,9 +205,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14A2AABA18920C2C00C73E42 /* IOS7_HybridApplication */ = {
+		14A2AABA18920C2C00C73E42 /* IOS6_HybridApplication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14A2AAED18920C2C00C73E42 /* Build configuration list for PBXNativeTarget "IOS7_HybridApplication" */;
+			buildConfigurationList = 14A2AAED18920C2C00C73E42 /* Build configuration list for PBXNativeTarget "IOS6_HybridApplication" */;
 			buildPhases = (
 				14A2AAB718920C2C00C73E42 /* Sources */,
 				14A2AAB818920C2C00C73E42 /* Frameworks */,
@@ -216,14 +217,14 @@
 			);
 			dependencies = (
 			);
-			name = IOS7_HybridApplication;
+			name = IOS6_HybridApplication;
 			productName = WebViewApplication;
-			productReference = 14A2AABB18920C2C00C73E42 /* IOS7_HybridApplication.app */;
+			productReference = 14A2AABB18920C2C00C73E42 /* IOS6_HybridApplication.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14A2AADB18920C2C00C73E42 /* IOS7_HybridApplicationTests */ = {
+		14A2AADB18920C2C00C73E42 /* IOS6_HybridApplicationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14A2AAF018920C2C00C73E42 /* Build configuration list for PBXNativeTarget "IOS7_HybridApplicationTests" */;
+			buildConfigurationList = 14A2AAF018920C2C00C73E42 /* Build configuration list for PBXNativeTarget "IOS6_HybridApplicationTests" */;
 			buildPhases = (
 				14A2AAD818920C2C00C73E42 /* Sources */,
 				14A2AAD918920C2C00C73E42 /* Frameworks */,
@@ -234,9 +235,9 @@
 			dependencies = (
 				14A2AAE218920C2C00C73E42 /* PBXTargetDependency */,
 			);
-			name = IOS7_HybridApplicationTests;
+			name = IOS6_HybridApplicationTests;
 			productName = WebViewApplicationTests;
-			productReference = 14A2AADC18920C2C00C73E42 /* IOS7_HybridApplicationTests.xctest */;
+			productReference = 14A2AADC18920C2C00C73E42 /* IOS6_HybridApplicationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 14A2AAB618920C2C00C73E42 /* Build configuration list for PBXProject "IOS7_HybridApplication" */;
+			buildConfigurationList = 14A2AAB618920C2C00C73E42 /* Build configuration list for PBXProject "IOS6_HybridApplication" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -266,8 +267,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14A2AABA18920C2C00C73E42 /* IOS7_HybridApplication */,
-				14A2AADB18920C2C00C73E42 /* IOS7_HybridApplicationTests */,
+				14A2AABA18920C2C00C73E42 /* IOS6_HybridApplication */,
+				14A2AADB18920C2C00C73E42 /* IOS6_HybridApplicationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14CCAFC218949A0C003D6EFA /* emailicon.png in Resources */,
+				14BBC88C18971F28006AC9EF /* IOS7_HybridApplication-Info.plist in Resources */,
 				14A2AAD718920C2C00C73E42 /* Images.xcassets in Resources */,
 				14A2AAC918920C2C00C73E42 /* InfoPlist.strings in Resources */,
 				14CCAFBC189497A8003D6EFA /* cellphone.jpg in Resources */,
@@ -331,7 +333,7 @@
 /* Begin PBXTargetDependency section */
 		14A2AAE218920C2C00C73E42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14A2AABA18920C2C00C73E42 /* IOS7_HybridApplication */;
+			target = 14A2AABA18920C2C00C73E42 /* IOS6_HybridApplication */;
 			targetProxy = 14A2AAE118920C2C00C73E42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,9 +444,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WebViewApplication/IOS7_HybridApplication-Prefix.pch";
+				GCC_PREFIX_HEADER = "WebViewApplication/IOS6_HybridApplication-Prefix.pch";
 				INFOPLIST_FILE = "WebViewApplication/IOS7_HybridApplication-Info.plist";
-				PRODUCT_NAME = IOS7_HybridApplication;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = IOS6_HybridApplication;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -455,9 +458,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "WebViewApplication/IOS7_HybridApplication-Prefix.pch";
+				GCC_PREFIX_HEADER = "WebViewApplication/IOS6_HybridApplication-Prefix.pch";
 				INFOPLIST_FILE = "WebViewApplication/IOS7_HybridApplication-Info.plist";
-				PRODUCT_NAME = IOS7_HybridApplication;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = IOS6_HybridApplication;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -478,8 +482,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "WebViewApplicationTests/IOS7_HybridApplicationTests-Info.plist";
-				PRODUCT_NAME = IOS7_HybridApplicationTests;
+				INFOPLIST_FILE = "WebViewApplicationTests/IOS6_HybridApplicationTests-Info.plist";
+				PRODUCT_NAME = IOS6_HybridApplicationTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -497,8 +501,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebViewApplication/WebViewApplication-Prefix.pch";
-				INFOPLIST_FILE = "WebViewApplicationTests/IOS7_HybridApplicationTests-Info.plist";
-				PRODUCT_NAME = IOS7_HybridApplicationTests;
+				INFOPLIST_FILE = "WebViewApplicationTests/IOS6_HybridApplicationTests-Info.plist";
+				PRODUCT_NAME = IOS6_HybridApplicationTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -507,7 +511,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14A2AAB618920C2C00C73E42 /* Build configuration list for PBXProject "IOS7_HybridApplication" */ = {
+		14A2AAB618920C2C00C73E42 /* Build configuration list for PBXProject "IOS6_HybridApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14A2AAEB18920C2C00C73E42 /* Debug */,
@@ -516,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14A2AAED18920C2C00C73E42 /* Build configuration list for PBXNativeTarget "IOS7_HybridApplication" */ = {
+		14A2AAED18920C2C00C73E42 /* Build configuration list for PBXNativeTarget "IOS6_HybridApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14A2AAEE18920C2C00C73E42 /* Debug */,
@@ -525,7 +529,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14A2AAF018920C2C00C73E42 /* Build configuration list for PBXNativeTarget "IOS7_HybridApplicationTests" */ = {
+		14A2AAF018920C2C00C73E42 /* Build configuration list for PBXNativeTarget "IOS6_HybridApplicationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14A2AAF118920C2C00C73E42 /* Debug */,
